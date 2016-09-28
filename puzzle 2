@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas (600,600)
+  background(255)
+ }
+ 
+ function draw() {
+   var i= 20;
+   while (i<=580){
+     noFill()
+ellipse(300,300,i,i);
+   i+=20;
+     
+   }
+ }
+   
