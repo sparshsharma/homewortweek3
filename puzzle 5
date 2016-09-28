@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas(600,600);
+  background(255)
+}
+
+function draw() {
+  
+  var i = 70
+  var q = 20
+  
+  while (i<=600){
+      
+      
+  while (q<=80){
+    
+    noFill()
+    rect(i,300-q,q+q,q+q)
+   
+    i-=20;
+    q+=20;
+  }
+  
+  i+=70;
+}
+
+}
